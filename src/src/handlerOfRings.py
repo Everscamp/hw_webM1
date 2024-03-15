@@ -1,13 +1,12 @@
 from abc import ABC, abstractmethod
-from src.classes import AddressBook, Record, Notes, BodyOfNote, TegNote
-from sys import stdout as console
+# from src.classes import AddressBook, Record, Notes, BodyOfNote, TegNote
 from src.cleaner import sorting
+from sys import stdout as console
 from pathlib import Path
 import pickle
 import re
-
-# from classes import AddressBook, Record, Notes, BodyOfNote, TegNote
-# from cleaner import sorting
+from classes import AddressBook, Record, Notes, BodyOfNote, TegNote
+from cleaner import sorting
 
 NOTEBOOK = AddressBook()
 FILE_NAME = 'data.bin'
@@ -105,7 +104,7 @@ class AddBirthday(Command):
         else:
             console.write(f'Woopsie no contact with {contactData[0]} name!\n')
 
-# Adds the address to the contactsпше 
+# Adds the address to the contacts
 class AddAddress(Command):
     def execute(self, operator = None):
         contactData = OperatorTrimmer().execute('address', operator)
