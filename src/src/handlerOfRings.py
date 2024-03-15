@@ -1,12 +1,12 @@
 from abc import ABC, abstractmethod
-# from src.classes import AddressBook, Record, Notes, BodyOfNote, TegNote
+from src.classes import AddressBook, Record, Notes, BodyOfNote, TegNote
 from src.cleaner import sorting
 from sys import stdout as console
 from pathlib import Path
 import pickle
 import re
-from classes import AddressBook, Record, Notes, BodyOfNote, TegNote
-from cleaner import sorting
+# from classes import AddressBook, Record, Notes, BodyOfNote, TegNote
+# from cleaner import sorting
 
 NOTEBOOK = AddressBook()
 FILE_NAME = 'data.bin'

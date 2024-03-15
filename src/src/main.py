@@ -1,7 +1,7 @@
 
 from sys import stdout as console
-# from src.handlerOfRings import COMMANDS, OperatorHandler, LoadNotebook, ShowBirthdays
-from handlerOfRings import *
+from src.handlerOfRings import COMMANDS, OperatorHandler, LoadNotebook, ShowBirthdays
+# from handlerOfRings import *
 
 waiting = True
 goodbyes = ("good bye", "close", "exit", "end", "bye")
