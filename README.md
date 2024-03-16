@@ -12,6 +12,8 @@ To remove the package from your system, use the command:
 To run the assistant bot, use the command:
 `run-helper`
 
+Dont forget to add -it flag when running container for tests
+
 This command activates the bot, and you can use it anywhere in the system.
 
 During each launch, the bot will load the notebook from a file if it was previously saved. 

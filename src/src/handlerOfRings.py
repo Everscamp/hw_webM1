@@ -1,12 +1,15 @@
-from abc import ABC, abstractmethod
+# from classes import AddressBook, Record, Notes, BodyOfNote, TegNote
+# from cleaner import sorting
+#comment the lines above and uncomment the one with src. below before instaling as a packege, this line needs for testing
 from src.classes import AddressBook, Record, Notes, BodyOfNote, TegNote
 from src.cleaner import sorting
+
+from abc import ABC, abstractmethod
 from sys import stdout as console
 from pathlib import Path
 import pickle
 import re
-# from classes import AddressBook, Record, Notes, BodyOfNote, TegNote
-# from cleaner import sorting
+
 
 NOTEBOOK = AddressBook()
 FILE_NAME = 'data.bin'

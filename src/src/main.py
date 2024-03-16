@@ -1,7 +1,10 @@
 
-from sys import stdout as console
 from src.handlerOfRings import COMMANDS, OperatorHandler, LoadNotebook, ShowBirthdays
-# from handlerOfRings import *
+#comment line below and uncomment the one above before instaling as a packege, this line needs for testing
+# from handlerOfRings import * 
+
+from sys import stdout as console
+
 
 waiting = True
 goodbyes = ("good bye", "close", "exit", "end", "bye")
